@@ -1,0 +1,26 @@
+.custom-card {
+  height: 100%;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-card img {
+  height: 150px;
+  width: 150px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Cards.css */
+
+.custom-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

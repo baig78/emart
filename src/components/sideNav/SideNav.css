@@ -1,0 +1,61 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  width: 16%;
+  /* padding-top: 100px; */
+}
+/* .sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: 100%;
+} */
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #0464c4;
+}
+
+.sidebar .nav-link.active {
+  background-color: #f0128c;
+  color: #fff;
+}
+
+.main-content {
+  margin-left: 250px; /* Adjust this value based on your sidebar width */
+}
+
+/* Optional: Add media query for small screens to make the sidebar collapsible */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -250px; /* Hide the sidebar by default on small screens */
+    width: 250px;
+    transition: left 0.3s ease;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .sidebar.show {
+    left: 0; /* Show the sidebar when the "show" class is added */
+  }
+}
