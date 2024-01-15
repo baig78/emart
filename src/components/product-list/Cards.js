@@ -9,6 +9,8 @@ const Card = ({
   imageUrl,
   onClick,
   productCode,
+  oldPrice,
+  newPrice,
   onShareClick,
   onWhatsAppClick,
 }) => {
@@ -28,6 +30,13 @@ const Card = ({
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{content}</p>
         <p className="card-text">Product Code: {productCode}</p>
+        {/* <p>price: {oldPrice}</p> */}
+        <div>
+          <span className="old-price">
+            Price: <strike> {oldPrice}.00 </strike>
+          </span>{" "}
+          <span className="new-price">{newPrice}.00</span>
+        </div>
         <div className="d-flex justify-content-between align-items-center mt-4">
           <button
             className="btn btn-primary"

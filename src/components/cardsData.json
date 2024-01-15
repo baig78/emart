@@ -4,37 +4,49 @@
   "title": "Card 1", 
   "productCode": "abce", 
   "content": "Content for Card 1", 
-  "imageUrl": "/assets/images (3).jpeg" 
+  "imageUrl": "/assets/images (3).jpeg",
+  "oldPrice": "150",
+  "newPrice": "100"
 },
 
 { 
   "title": "Card 2", 
   "content": "Content for Card 2", 
   "imageUrl": "/assets/images (1).jpeg", 
-  "productCode": "Abd123" 
+  "productCode": "Abd123",
+  "oldPrice": "150",
+  "newPrice": "100"
 },
 { 
   "title": "Card 3", 
   "content": "Content for Card 3", 
   "imageUrl": "/assets/images (2).jpeg", 
-  "productCode": "Abd123" 
+  "productCode": "Abd123",
+  "oldPrice": "150",
+  "newPrice": "100"
 },
   {
   "title": "Card 1", 
   "content": "Content for Card 1", 
   "imageUrl": "/assets/images (3).jpeg", 
-  "productCode": "Abd123" 
+  "productCode": "Abd123",
+  "oldPrice": "150",
+  "newPrice": "100"
 },
  {
  "title": "Card 2", 
  "content": "Content for Card 2", 
  "imageUrl": "/assets/images (1).jpeg", 
- "productCode": "Abd123" 
+ "productCode": "Abd123",
+ "oldPrice": "150",
+ "newPrice": "100"
 },
  { 
   "title": "Card 3", 
   "content": "Content for Card 3", 
   "imageUrl": "/assets/images (2).jpeg", 
-  "productCode": "Abd123" 
+  "productCode": "Abd123",
+  "oldPrice": "150",
+  "newPrice": "100"
 }
 ]
