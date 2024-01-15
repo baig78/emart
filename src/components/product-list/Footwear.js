@@ -53,6 +53,8 @@ const Footwear = () => {
                   content={card.content}
                   imageUrl={card.imageUrl}
                   productCode={card.productCode}
+                  oldPrice={card.oldPrice}
+                  newPrice={card.newPrice}
                   onClick={() => handleCardClick(card.title)}
                   onShareClick={() => handleShareClick(card)}
                   onWhatsAppClick={() => handleWhatsAppClick(card)}
